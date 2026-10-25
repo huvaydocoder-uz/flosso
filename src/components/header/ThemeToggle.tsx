@@ -2,7 +2,7 @@
 
 import { useTranslations } from "next-intl";
 import { useSyncExternalStore } from "react";
-import { THEME_KEY as KEY } from "@/lib/boot";
+import { THEME_KEY as KEY, themePeriod } from "@/lib/boot";
 
 function subscribe(cb: () => void) {
   const mo = new MutationObserver(cb);
@@ -23,8 +23,9 @@ export function ThemeToggle({ className = "" }: { className?: string }) {
     const apply = () => {
       root.dataset.theme = next;
     };
+    // the choice holds for this day or night only; at the next 07:00 / 19:00 the clock takes over again
     try {
-      localStorage.setItem(KEY, next);
+      localStorage.setItem(KEY, `${next}|${themePeriod().key}`);
     } catch {}
     // one cheap crossfade where supported; elsewhere (or with reduced motion) an instant switch
     const still = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
