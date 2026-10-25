@@ -1,0 +1,644 @@
+{
+  "meta": {
+    "title": "Penoplast fasad dekori Buxoroda — karniz, nalichnik, kolonna | FLOSSO",
+    "description": "FLOSSO — Buxorodagi o‘z sexida penoplastdan karniz, nalichnik, podokonnik, kolonna va termopanel ishlab chiqaradi. Optom narx, yetkazib berish. Tel: +998 94 890 33 33",
+    "ogAlt": "FLOSSO — penoplastdan fasad dekori: karniz, nalichnik, kolonna",
+    "keywords": [
+      "penoplast dekor",
+      "fasad dekori",
+      "penoplast karniz",
+      "fasad karnizi",
+      "karniz",
+      "karniz narxi",
+      "nalichnik",
+      "deraza nalichnigi",
+      "penoplast nalichnik",
+      "podokonnik",
+      "fasad podokonnigi",
+      "kolonna",
+      "penoplast kolonna",
+      "pilyastr",
+      "kapitel",
+      "termopanel",
+      "fasad termopaneli",
+      "fasad bezaklari",
+      "uy fasadi bezagi",
+      "dekorativ karniz",
+      "penoplast fasad",
+      "fasad uchun dekor",
+      "karniz Buxoro",
+      "fasad dekori Buxoro",
+      "fasad dekori Toshkent",
+      "penoplast mahsulotlari O‘zbekiston",
+      "optom karniz",
+      "FLOSSO"
+    ],
+    "itemList": "FLOSSO katalogi: penoplast fasad dekori"
+  },
+  "slogan": "Har davrga munosib go‘zallik",
+  "nav": {
+    "catalog": "Katalog",
+    "solutions": "Tayyor yechimlar",
+    "calculator": "Kalkulyator",
+    "about": "Biz haqimizda",
+    "contact": "Aloqa",
+    "cta": "Bog‘lanish",
+    "menu": "Menyu",
+    "close": "Yopish",
+    "language": "Til"
+  },
+  "intro": {
+    "skip": "O‘tkazib yuborish"
+  },
+  "hero": {
+    "lead": "Karniz, nalichnik, podokonnik va kolonnalar o‘z seximizda tayyorlanadi. Uy egalari ham, ustalar ham bizdan to‘g‘ridan-to‘g‘ri, optom narxda oladi.",
+    "primary": "Katalogni ko‘rish",
+    "secondary": "Bog‘lanish",
+    "wallLabel": "1-tayyor yechim: deraza va ikki kolonna",
+    "ask": "Telegram’da so‘rash",
+    "tagHintWide": "O‘ng tarafdagi yorliqni bosing — mahsulot ochiladi",
+    "tagHintNarrow": "Tepadagi yorliqni bosing — mahsulot ochiladi",
+    "delivery": "Yetkazib berish xizmati mavjud"
+  },
+  "category": {
+    "FKR": "Karniz",
+    "FNL": "Nalichnik",
+    "FPD": "Podokonnik",
+    "FTK": "Taroq-kolonna",
+    "FIK": "Kolonna igrushkasi",
+    "FIN": "Nalichnik igrushkasi",
+    "FTP": "Termopanel"
+  },
+  "categoryPlural": {
+    "FKR": "Karnizlar",
+    "FNL": "Nalichniklar",
+    "FPD": "Podokonniklar",
+    "FTK": "Taroq-kolonnalar",
+    "FIK": "Kolonna igrushkalari",
+    "FIN": "Nalichnik igrushkalari",
+    "FTP": "Termopanellar"
+  },
+  "units": {
+    "metr": "metr",
+    "dona": "dona",
+    "perMetr": "1 metr",
+    "perDona": "1 dona",
+    "sum": "so‘m",
+    "cm": "sm",
+    "m": "m"
+  },
+  "gallery": {
+    "title": "Fasadda qanday ko‘rinadi",
+    "lead": "Katalogdagi tayyor yechimlar turli rangdagi devorlarda. Rasmni bosing — to‘plam tarkibi va narxlari ochiladi.",
+    "badge": "Vizualizatsiya",
+    "item": "{n}-yechim",
+    "walls": {
+      "sand": "Qumrang suvoq",
+      "brick": "G‘isht rang",
+      "stone": "Kulrang tosh",
+      "light": "Oq suvoq"
+    },
+    "real": "Haqiqiy obyekt",
+    "realTitle": "FLOSSO dekori o‘rnatilgan uy",
+    "realSource": "Instagram’dagi videodan"
+  },
+  "why": {
+    "title": "Penoplast dekor nima beradi",
+    "lead": "Tosh va gips dekorning ko‘rinishi — ancha yengil, tez o‘rnatiladi va arzonroq.",
+    "drawing": "FKR01-718 karniz kesimi",
+    "items": {
+      "beauty": {
+        "t": "Fasad chiroyi",
+        "d": "Oddiy devor karniz, nalichnik va kolonnalar bilan klassik, tugallangan ko‘rinish oladi."
+      },
+      "warm": {
+        "t": "Issiqlikni saqlaydi",
+        "d": "Penoplast issiqlikni yaxshi ushlaydi: deraza atrofidagi sovuq joylar kamayadi, isitishga sarf tejaladi."
+      },
+      "light": {
+        "t": "Yengil va oson montaj",
+        "d": "Profil juda yengil. Maxsus yelim bilan yopishtiriladi — og‘ir texnika va qo‘shimcha jihozlar kerak emas."
+      },
+      "durable": {
+        "t": "Uzoq xizmat qiladi",
+        "d": "Himoya qatlami va fasad bo‘yog‘i bilan namlik, quyosh va sovuqqa chidaydi, shaklini yo‘qotmaydi."
+      },
+      "price": {
+        "t": "Arzonroq narx",
+        "d": "Tosh va gips dekordan ancha arzon, montaj ham tezroq — ustaning ish haqi ham tejaladi."
+      }
+    }
+  },
+  "choose": {
+    "title": "Kerakli dekorni oson tanlang",
+    "lead": "Toifani tanlang — katalogning o‘sha bo‘limi ochiladi. Har bir mahsulotning o‘z kodi bor.",
+    "models": "{count} ta model",
+    "from": "{price} so‘mdan",
+    "open": "Ko‘rish",
+    "codeTitle": "Kod — mahsulotning pasporti",
+    "codeLead": "Kodni yodlash shart emas: rasmga qarab tanlang, buyurtmada kod o‘zi yoziladi. Ustalar uchun esa har bir harf va raqam nimani bildirishini ko‘rsatamiz — kodning qismini bosing.",
+    "parts": {
+      "brand": {
+        "label": "F — FLOSSO",
+        "text": "Birinchi harf F — FLOSSO degani. Barcha mahsulotlarimiz kodi F bilan boshlanadi."
+      },
+      "cat": {
+        "label": "KR — mahsulot turi",
+        "text": "Keyingi ikki harf — mahsulot turi. KR — karniz. Boshqa turlar pastdagi ro‘yxatda."
+      },
+      "model": {
+        "label": "01 — model raqami",
+        "text": "01 — birinchi model. Bir turdagi mahsulotlar naqshi va shakli shu raqam bilan farqlanadi: 01, 02, 03…"
+      },
+      "height": {
+        "label": "7 — qalinligi",
+        "text": "Chiziqchadan keyingi birinchi raqam — qalinligi: devordan 7 sm chiqib turadi."
+      },
+      "width": {
+        "label": "18 — eni",
+        "text": "Oxirgi ikki raqam — eni: devorda 18 sm enlikda ko‘rinadi."
+      }
+    },
+    "summary": "Demak, FKR01-718 — FLOSSO karnizi, 1-model, qalinligi 7 sm, eni 18 sm.",
+    "legendTitle": "Harflar nimani bildiradi",
+    "legend": {
+      "KR": "karniz",
+      "NL": "nalichnik (deraza ramkasi)",
+      "PD": "podokonnik",
+      "TK": "taroq kolonna (kolonna tanasi)",
+      "IK": "kolonna bezagi (tepa va past)",
+      "IN": "nalichnik bezagi (burchak va tepa)",
+      "TP": "termopanel"
+    },
+    "position": "Qavs ichidagi harf faqat bezaklarda bo‘ladi: (T) — tepasi, (P) — pasti. Masalan, FIK(T)07-818 — kolonna tepasi."
+  },
+  "wholesale": {
+    "title": "Har doim sifatli, optom narxda",
+    "lead": "Quruvchilar, ustalar va do‘konlar uchun: katta hajmga alohida narx, mahsulot to‘g‘ridan-to‘g‘ri sexdan.",
+    "points": {
+      "volume": "Hajmga qarab alohida narx",
+      "direct": "Vositachisiz, sex narxida",
+      "advice": "O‘lcham va miqdor bo‘yicha maslahat"
+    },
+    "call": "Qo‘ng‘iroq qilish",
+    "request": "Telegram’da yozish",
+    "prefill": "Optom narx bo‘yicha so‘rov"
+  },
+  "whyUs": {
+    "title": "Nega aynan FLOSSO",
+    "rows": {
+      "own": {
+        "v": "O‘zimiz",
+        "t": "ishlab chiqaramiz",
+        "d": "Har bir profilni o‘zimiz tayyorlaymiz — sifat ham, narx ham bizning nazoratimizda."
+      },
+      "range": {
+        "v": "56",
+        "t": "model, 7 toifa",
+        "d": "Karnizdan termopanelgacha — bitta fasad uchun kerak bo‘lgan hamma narsa bir joyda."
+      },
+      "solutions": {
+        "v": "4",
+        "t": "tayyor yechim",
+        "d": "Deraza va kolonnalar uchun bir-biriga mos to‘plamlar — tanlashga vaqt ketmaydi."
+      },
+      "wholesale": {
+        "v": "Optom",
+        "t": "narx",
+        "d": "Quruvchilar va ustalar uchun katta hajmga alohida narx — mahsulot to‘g‘ridan-to‘g‘ri sexdan."
+      },
+      "delivery": {
+        "v": "Tez",
+        "t": "yetkazib berish",
+        "d": "Buyurtmani tez yetkazib beramiz — muddat va narxini qo‘ng‘iroqda aniqlaymiz."
+      },
+      "advice": {
+        "v": "Bepul",
+        "t": "maslahat",
+        "d": "Qaysi profil mos kelishi va qancha metr kerakligini birga hisoblab beramiz."
+      }
+    }
+  },
+  "instagram": {
+    "title": "Bizni ijtimoiy tarmoqlarda kuzating",
+    "lead": "YouTube, Instagram va Telegram’da yangi mahsulotlar, buyurtmalar va tayyor fasadlarni ochiq ko‘rsatib boramiz.",
+    "cta": "@flosso_uz sahifasiga o‘tish",
+    "tile": "FLOSSO Instagram sahifasini ochish",
+    "button": "Instagram sahifamiz"
+  },
+  "faq": {
+    "title": "Ko‘p beriladigan savollar",
+    "more": "Javob topa olmadingizmi?",
+    "items": [
+      {
+        "q": "Montaj qanday qilinadi?",
+        "a": "Profil tekis va toza devorga maxsus fasad yelimi bilan yopishtiriladi, kerak bo‘lsa dyubel bilan qo‘shimcha mahkamlanadi. Choklar germetik bilan to‘ldiriladi, so‘ng sirt fasad bo‘yog‘i bilan bo‘yaladi. Montajni o‘zingiz yoki usta qilishi mumkin — kerak bo‘lsa, maslahat beramiz."
+      },
+      {
+        "q": "Penoplast dekor qancha chidaydi?",
+        "a": "Himoya qatlami va sifatli fasad bo‘yog‘i bilan dekor namlik, quyosh va sovuqqa chidaydi va uzoq yillar shaklini yo‘qotmaydi. Bo‘yoqni vaqti-vaqti bilan yangilab turish tavsiya etiladi."
+      },
+      {
+        "q": "Bo‘yash mumkinmi?",
+        "a": "Ha. Fasad uchun akril yoki silikon asosli bo‘yoqlardan foydalaning — istalgan rangga bo‘yash mumkin. Erituvchili (nitro) bo‘yoqlar penoplastni eritadi, ularni ishlatmang."
+      },
+      {
+        "q": "Yetkazib berish bormi?",
+        "a": "Ha, buyurtmani yetkazib beramiz. Narxi va muddati manzil hamda hajmga bog‘liq — qo‘ng‘iroq qilib aniqlang. Xohlasangiz, sexdan o‘zingiz olib ketishingiz ham mumkin: Buxoro, Namozgoh ko‘chasi."
+      },
+      {
+        "q": "Minimal buyurtma qancha?",
+        "a": "Kichik buyurtmalarni ham qabul qilamiz. Optom narx qaysi hajmdan boshlanishini telefon orqali aytib beramiz."
+      },
+      {
+        "q": "Narx qanday hisoblanadi?",
+        "a": "Karniz, nalichnik, podokonnik, kolonna va termopanellar 1 metr uchun, igrushkalar esa dona hisobida sotiladi. Kerakli uzunlikni kiritsangiz, kalkulyator summani darhol ko‘rsatadi. Aniq narx va chegirmalarni qo‘ng‘iroqda aytamiz."
+      },
+      {
+        "q": "Qaysi o‘lchamni tanlash kerak?",
+        "a": "Katta deraza va baland devorga kengroq profil (15–18 sm), kichik deraza va tor devorga ixchamroq profil (10–12 sm) mos keladi. Eng oson yo‘l — tayyor yechimlardan boshlash: ulardagi qismlar bir-biriga mos o‘lchamda tanlangan."
+      }
+    ],
+    "or": "yoki",
+    "callButton": "Qo‘ng‘iroq qilish"
+  },
+  "about": {
+    "title": "Biz haqimizda",
+    "p1": "FLOSSO zamonaviy, sifatli va energiya tejamkor qurilish mahsulotlarini ishlab chiqarib, O‘zbekiston infratuzilmasiga barqaror hissa qo‘shishni maqsad qilgan. Innovatsion texnologiyalar asosida tayyorlangan mahsulotlarimiz bilan qurilishni osonlashtirish, binolarning ham chiroyli, ham qulay bo‘lishini ta’minlashga intilamiz.",
+    "p2": "Biz uchun har bir mahsulot — ishonch, bardoshlilik va zamonaviylik timsoli. Mijozlarimizga faqat mahsulot emas, balki uzoq muddatli yechim taqdim etamiz.",
+    "quote": "Har bir uy, har bir bino uchun — umrbod chiroy.",
+    "photos": {
+      "arch": "Kolonnali ark",
+      "feather": "Chiroqli bezak atrofida ramka",
+      "panel": "Karniz, pilastr va panellar"
+    },
+    "since": "1-noyabrdan beri",
+    "lead": "FLOSSO 2018-yil 1-noyabrda Buxoroda ish boshlagan. O‘shandan beri penoplastdan fasad dekorini o‘z sexida ishlab chiqarib kelmoqda.",
+    "stats": {
+      "year": {
+        "v": "2018",
+        "t": "1-noyabrdan beri ishlaymiz"
+      },
+      "exp": {
+        "v": "{n}+",
+        "t": "yillik tajriba"
+      },
+      "range": {
+        "v": "{n}",
+        "t": "model, 7 toifa"
+      },
+      "made": {
+        "v": "Buxoro",
+        "t": "o‘z sexi, o‘z ishlab chiqarishi"
+      }
+    },
+    "zoom": "Rasmni kattalashtirish"
+  },
+  "contact": {
+    "title": "Hoziroq bog‘laning",
+    "lead": "Ism va telefoningizni qoldiring — tez orada qo‘ng‘iroq qilamiz. Yoki o‘zingiz qo‘ng‘iroq qiling.",
+    "call": "Qo‘ng‘iroq qilish",
+    "instagram": "Instagram sahifamiz",
+    "form": {
+      "name": "Ismingiz",
+      "phone": "Telefon raqamingiz",
+      "comment": "Izoh",
+      "optional": "ixtiyoriy",
+      "commentHint": "Masalan: 3 ta deraza uchun karniz va nalichnik",
+      "submit": "Ariza yuborish",
+      "sending": "Yuborilmoqda…",
+      "attached": "Ariza bilan birga yuboriladi",
+      "remove": "Olib tashlash",
+      "privacy": "Ma’lumotlaringiz faqat siz bilan bog‘lanish uchun ishlatiladi.",
+      "successTitle": "Arizangiz qabul qilindi",
+      "successText": "Tez orada siz bilan bog‘lanamiz. Shoshilinch bo‘lsa, qo‘ng‘iroq qiling.",
+      "again": "Yana ariza yuborish",
+      "errors": {
+        "name": "Ismingizni yozing",
+        "phone": "Telefon raqamini to‘liq kiriting",
+        "rate": "Juda ko‘p urinish. Birozdan keyin qayta yuboring yoki qo‘ng‘iroq qiling.",
+        "server": "Ariza yuborilmadi. Internetni tekshirib qayta urinib ko‘ring yoki qo‘ng‘iroq qiling."
+      },
+      "topic": "Murojaat mavzusi",
+      "topicPick": "Mavzuni tanlang"
+    },
+    "telegram": "Telegram orqali murojaat qilish",
+    "phones": "Telefonlar",
+    "youtube": "YouTube kanalimiz",
+    "topics": {
+      "karniz": "Karniz",
+      "nalichnik": "Nalichnik",
+      "podokonnik": "Podokonnik",
+      "kolonna": "Kolonna",
+      "termopanel": "Termopanel",
+      "solution": "Tayyor yechim",
+      "price": "Narx so‘rash",
+      "montaj": "Montaj bo‘yicha",
+      "wholesale": "Optom xarid",
+      "other": "Boshqa"
+    }
+  },
+  "map": {
+    "title": "Manzil",
+    "address": "Buxoro shahri, Namozgoh ko‘chasi",
+    "note": "Sexga kelib mahsulotni ko‘rishingiz yoki o‘zingiz olib ketishingiz mumkin. Kelishdan oldin qo‘ng‘iroq qiling.",
+    "open": "Google xaritada ochish",
+    "yandex": "Yandex xaritada",
+    "route": "Yo‘nalish olish",
+    "heading": "Bizning manzil"
+  },
+  "footer": {
+    "about": "FLOSSO — 2018-yildan beri Buxoroda penoplastdan fasad dekorini ishlab chiqaruvchi O‘zbekiston brendi. Har bir uy, har bir bino uchun — umrbod chiroy.",
+    "contact": "Aloqa",
+    "menu": "Bo‘limlar",
+    "phone": "Telefon",
+    "instagram": "Instagram",
+    "site": "Sayt",
+    "rights": "Barcha huquqlar himoyalangan."
+  },
+  "solutions": {
+    "title": "Tayyor yechimlar",
+    "lead": "Deraza va ikki kolonna uchun katalogdagi tayyor to‘plamlar. Nuqtani bosing — qismning kodi, o‘lchami va narxi chiqadi.",
+    "tab": "{n}-yechim",
+    "list": "To‘plam tarkibi",
+    "ask": "Telegram’da so‘rash",
+    "calc": "Kalkulyatorda hisoblash",
+    "setNote": "{n}-tayyor yechim to‘plami",
+    "variant": "{v} sm",
+    "perWindow": "Bitta deraza + 2 kolonna",
+    "roles": {
+      "column": "Kolonna",
+      "capital": "Kolonna tepasi",
+      "base": "Kolonna pasti",
+      "cornice": "Karniz",
+      "casing": "Nalichnik",
+      "casingTop": "Nalichnik tepasi",
+      "casingBottom": "Nalichnik pasti",
+      "sill": "Podokonnik"
+    },
+    "form": "Shu to‘plamga ariza qoldirish"
+  },
+  "catalog": {
+    "title": "Katalog",
+    "lead": "Barcha {count} ta mahsulot. Toifani tanlang yoki nomini yozing.",
+    "all": "Hammasi",
+    "search": "Nomi yoki kodi bo‘yicha qidirish",
+    "searchHint": "Masalan: karniz yoki FKR01",
+    "empty": "“{q}” bo‘yicha hech narsa topilmadi.",
+    "reset": "Tozalash",
+    "more": "Yana {count} ta ko‘rsatish",
+    "found": "{count} ta mahsulot",
+    "details": "Batafsil",
+    "priceNote": "Katta hajm va chegirmalar bo‘yicha bog‘laning."
+  },
+  "product": {
+    "close": "Yopish",
+    "section": "Kesim o‘lchami",
+    "height": "Qalinligi",
+    "width": "Eni",
+    "variant": "O‘lchamni tanlang",
+    "use": "Qayerga ishlatiladi",
+    "tip": "Qanday tanlash kerak",
+    "priceHow": "Narx qanday hisoblanadi",
+    "priceMetr": "Narx 1 metr uchun. Necha metr kerakligini yozing — summa darhol chiqadi.",
+    "priceDona": "Narx 1 dona uchun. Kerakli sonini kiriting.",
+    "order": "Telegram’da so‘rash",
+    "call": "Qo‘ng‘iroq qilish",
+    "discount": "Chegirma",
+    "heightHint": "devordan chiqib turishi",
+    "widthHint": "devorda ko‘rinadigan qismi",
+    "form": "Ariza qoldirish"
+  },
+  "calc": {
+    "title": "Kalkulyator",
+    "lead": "Uch qadam: mahsulotni tanlang, o‘lchamni kiriting — narx darhol chiqadi. Natijani ariza bilan birga yuborishingiz mumkin.",
+    "simple": "Oddiy",
+    "window": "Deraza bo‘yicha",
+    "product": "Mahsulot",
+    "length": "Uzunlik, m",
+    "qty": "Soni, dona",
+    "total": "Jami",
+    "winWidth": "Deraza eni, sm",
+    "winHeight": "Deraza bo‘yi, sm",
+    "winCount": "Derazalar soni",
+    "set": "To‘plam",
+    "custom": "O‘zim tanlayman",
+    "cornice": "Karniz",
+    "casing": "Nalichnik",
+    "sill": "Podokonnik",
+    "casingTop": "Nalichnik tepasi",
+    "casingBottom": "Nalichnik pasti",
+    "none": "Kerak emas",
+    "element": "Qism",
+    "amount": "Miqdor",
+    "sum": "Summa",
+    "formula": "Hisob: karniz va podokonnik = deraza eni + 2 × nalichnik eni + 10 sm; nalichnik = 2 × deraza bo‘yi; nalichnik bezaklari har derazaga 2 ta tepa va 2 ta past; kolonna = kolonnalar soni × kolonna bo‘yi, har kolonnaga 1 ta tepa va 1 ta past. Metrlar 10 sm ga yaxlitlanadi. Har qator ostida hisob raqamlarda ko‘rsatilgan.",
+    "send": "Telegram’da yuborish",
+    "pieces": "dona",
+    "discountApplied": "−{p}% chegirma bilan hisoblandi",
+    "orForm": "yoki ariza qoldiring",
+    "column": "Kolonna",
+    "capital": "Kolonna tepasi",
+    "base": "Kolonna pasti",
+    "colCount": "Kolonnalar soni",
+    "colHeight": "Kolonna bo‘yi, sm",
+    "steps": {
+      "product": "Mahsulotni tanlang",
+      "set": "To‘plamni tanlang",
+      "size": "O‘lchamni kiriting",
+      "result": "Natija"
+    }
+  },
+  "categoryInfo": {
+    "FKR": {
+      "use": "Deraza va eshik tepasiga, tom ostiga va qavatlar orasiga — fasadni yuqoridan yakunlaydi.",
+      "tip": "Karniz nalichnikdan kengroq bo‘lishi kerak: deraza eni + ikki tomondagi nalichnik + har tomondan 5 sm chiqish."
+    },
+    "FNL": {
+      "use": "Deraza va eshik atrofiga ramka sifatida.",
+      "tip": "Kichik derazalarga 10–12 sm, katta derazalarga 15 sm kenglik mos keladi. Har bir derazaga ikki yon tomon uchun 2 × bo‘yi kerak."
+    },
+    "FPD": {
+      "use": "Deraza tagiga — suv oqizgich va bezak.",
+      "tip": "Podokonnik uzunligi karniznikiga teng olinadi. Chuqurroq profil devordan ko‘proq chiqadi."
+    },
+    "FTK": {
+      "use": "Kolonna (pilyastra) tanasi — deraza yonlari, burchaklar va kirish qismi uchun.",
+      "tip": "Kolonna enini (20–40 sm) fasad o‘lchamiga qarab tanlang va unga mos tepa-past igrushkalarni oling."
+    },
+    "FIK": {
+      "use": "Kolonnaning tepasi (T — kapitel) va pastiga (P — baza).",
+      "tip": "Variant kolonna eniga mos tanlanadi: 20, 30 yoki 40 sm. Har bir kolonnaga bitta tepa va bitta past kerak."
+    },
+    "FIN": {
+      "use": "Nalichnikning tepa va pastki uchlariga bezak.",
+      "tip": "Variant nalichnik eniga mos: 10, 12 yoki 15 sm. Har bir nalichnikka bitta tepa va bitta past kerak."
+    },
+    "FTP": {
+      "use": "Fasad devorini qoplash va issiqlikni saqlash uchun panel.",
+      "tip": "30 yoki 40 sm kenglikda. Kerakli metrni devor maydoniga qarab hisoblaymiz — qo‘ng‘iroq qiling."
+    }
+  },
+  "naming": {
+    "title": "{kind}, {model}-model",
+    "small": "kichik o‘lcham",
+    "medium": "o‘rta o‘lcham",
+    "large": "katta o‘lcham",
+    "code": "Kod"
+  },
+  "categoryPos": {
+    "T": "Kolonna tepasi",
+    "P": "Kolonna pasti"
+  },
+  "header": {
+    "location": "Buxoro, Namozgoh ko‘chasi",
+    "trade": "Ulgurji va chakana savdo",
+    "search": "Qidirish",
+    "searchPlaceholder": "Mahsulot nomi yoki kodi…",
+    "searchEmpty": "Hech narsa topilmadi. Boshqacha yozib ko‘ring.",
+    "searchHint": "Masalan: karniz, kolonna, FKR01",
+    "categories": "Toifalar",
+    "allCatalog": "Butun katalog",
+    "request": "Ariza qoldirish",
+    "telegram": "Telegram",
+    "instagram": "Instagram",
+    "call": "Qo‘ng‘iroq",
+    "bar": {
+      "call": "Qo‘ng‘iroq",
+      "telegram": "Telegram",
+      "catalog": "Katalog",
+      "request": "Ariza"
+    },
+    "callTitle": "Qo‘ng‘iroq qilish",
+    "themeDark": "Tungi rejimga o‘tish",
+    "themeLight": "Kunduzgi rejimga o‘tish",
+    "writeTg": "Telegram’da yozish"
+  },
+  "tg": {
+    "ask": "Telegram’da so‘rash",
+    "hello": "Assalomu alaykum! FLOSSO saytidan yozyapman.",
+    "product": "Shu mahsulot qiziqtiradi:",
+    "price": "Narx",
+    "calc": "Hisob-kitobim:",
+    "total": "Jami",
+    "set": "Shu tayyor yechim kerak:",
+    "wholesale": "Optom narx bo‘yicha ma’lumot olmoqchiman.",
+    "question": "Aniq narx va yetkazib berish haqida ma’lumot bersangiz.",
+    "window": "{count} ta deraza, {w}×{h} sm",
+    "copied": "Xabar tayyor — Telegram’da «Yuborish»ni bosing (matn nusxalandi ham)"
+  },
+  "call": {
+    "button": "Qo‘ng‘iroq qilish",
+    "title": "Qo‘ng‘iroq qilish",
+    "lead": "Raqamni bosing — darhol qo‘ng‘iroq boshlanadi.",
+    "close": "Yopish"
+  },
+  "promo": {
+    "close": "Yopish",
+    "upTo": "chegirma",
+    "label": "Aksiya",
+    "view": "Ko‘rish",
+    "later": "Keyinroq",
+    "productText": "Katalogdagi narxdan chegirma: {code}"
+  },
+  "brands": {
+    "title": "Biz bilan ishlagan brendlar",
+    "lead": "FLOSSO dekorini o‘z loyihalari uchun tanlagan kompaniyalar."
+  },
+  "walls": {
+    "label": "Devor foni",
+    "prev": "Oldingi devor",
+    "next": "Keyingi devor",
+    "sand": "Qumrang suvoq",
+    "brick": "G‘isht",
+    "stone": "Kulrang tosh",
+    "light": "Oq suvoq"
+  },
+  "social": {
+    "youtube": "YouTube kanalimiz",
+    "instagram": "Instagram sahifamiz",
+    "telegram": "Telegram kanalimiz"
+  },
+  "process": {
+    "title": "Ish jarayonimiz",
+    "text": "Har bir profil Buxorodagi o‘z seximizda tayyorlanadi: xomashyodan qadoqlashgacha har bir bosqich ustalarimiz nazoratida.",
+    "prev": "Oldingi rasm",
+    "next": "Keyingi rasm",
+    "go": "{n}-rasmga o‘tish",
+    "open": "Rasmlarni ko‘rish",
+    "groups": {
+      "raw": {
+        "t": "Xomashyo va kesish",
+        "d": "Penoplast bloklar o‘lchanib, stanokda chizma bo‘yicha profilga kesiladi."
+      },
+      "coat": {
+        "t": "Qoplash va quritish",
+        "d": "Profillarga himoya qatlami beriladi va maxsus javonlarda quritiladi."
+      },
+      "column": {
+        "t": "Kolonna va katta profillar",
+        "d": "Kolonnalar, kapitellar, katta karniz va podokonniklar."
+      },
+      "store": {
+        "t": "Tayyor mahsulot ombori",
+        "d": "Karniz, nalichnik va podokonniklar turi bo‘yicha saralangan."
+      },
+      "pack": {
+        "t": "Qadoqlash",
+        "d": "Har bir dona FLOSSO plyonkasiga o‘raladi va jo‘natishga tayyor."
+      },
+      "show": {
+        "t": "Tayyor ko‘rinish",
+        "d": "Showroomimizda dekor devorda qanday turishini ko‘rasiz."
+      }
+    }
+  },
+  "callback": {
+    "button": "Qayta qo‘ng‘iroq so‘rash",
+    "title": "Raqamingizni qoldiring — biz sizga qo‘ng‘iroq qilamiz",
+    "phone": "Telefon raqamingiz",
+    "send": "Yuborish",
+    "sending": "Yuborilmoqda…",
+    "done": "Rahmat! Tez orada sizga qo‘ng‘iroq qilamiz.",
+    "error": "Yuborilmadi. Qayta urinib ko‘ring yoki o‘zingiz qo‘ng‘iroq qiling.",
+    "invalid": "Raqamni to‘liq kiriting",
+    "close": "Yopish",
+    "toTop": "Tepaga"
+  },
+  "chat": {
+    "bubble": "Onlayn chat",
+    "bubbleShort": "Onlayn chat",
+    "title": "FLOSSO yordamchisi",
+    "status": "Onlayn · tez javob beramiz",
+    "greet": "Assalomu alaykum! Men FLOSSO yordamchisiman. Mahsulotlar, narx, yetkazib berish yoki montaj haqida so‘rang — javob beraman.",
+    "placeholder": "Savolingizni yozing…",
+    "send": "Yuborish",
+    "typing": "yozmoqda…",
+    "close": "Yopish",
+    "restart": "Qaytadan boshlash",
+    "quick": {
+      "price": "Narx bilish",
+      "delivery": "Yetkazib berish",
+      "montaj": "Montaj",
+      "other": "Boshqa"
+    },
+    "answers": {
+      "price": "Har bir mahsulot narxi katalogda 1 metr yoki 1 dona uchun ko‘rsatilgan. Kalkulyator deraza o‘lchamiga qarab jami summani darhol hisoblaydi. Ism va raqamingizni qoldirsangiz, mutaxassisimiz aniq hisoblab, chegirmalarni ham aytadi.",
+      "delivery": "Ha, buyurtmani yetkazib beramiz. Narxi va muddati manzil hamda hajmga bog‘liq. Sexdan o‘zingiz olib ketishingiz ham mumkin: Buxoro, Namozgoh ko‘chasi.",
+      "montaj": "Profil tekis devorga maxsus fasad yelimi bilan yopishtiriladi, kerak bo‘lsa dyubel bilan mahkamlanadi. Choklar germetik bilan to‘ldirilib, fasad bo‘yog‘i bilan bo‘yaladi. Montajni o‘zingiz yoki usta qilishi mumkin — maslahat beramiz.",
+      "other": "Savolingizni yozing. Ism va raqamingizni qoldirsangiz, mutaxassisimiz o‘zi qo‘ng‘iroq qilib, batafsil javob beradi."
+    },
+    "askContact": "Ismingiz va telefon raqamingizni qoldiring — mutaxassisimiz tez orada bog‘lanadi.",
+    "name": "Ismingiz",
+    "phone": "Telefon raqamingiz",
+    "submit": "Raqamni yuborish",
+    "done": "Rahmat, {name}! Mutaxassisimiz tez orada qo‘ng‘iroq qiladi.",
+    "error": "Xatolik yuz berdi. Iltimos, qayta urinib ko‘ring yoki qo‘ng‘iroq qiling.",
+    "offline": "Hozir javob bera olmadim. Ism va raqamingizni qoldiring — o‘zimiz qo‘ng‘iroq qilamiz."
+  },
+  "lightbox": {
+    "close": "Yopish",
+    "prev": "Oldingi rasm",
+    "next": "Keyingi rasm"
+  }
+}

@@ -1,0 +1,685 @@
+@import "tailwindcss";
+
+/* FLOSSO tokens: change brand colours here only */
+:root {
+  --red: #c62828;
+  --red-deep: #8e1b1b;
+  --red-ink: #6e1414;
+  --white: #ffffff;
+  --foam: #faf7f5;
+  --plaster: #ece6e1;
+  --plaster-deep: #ddd5ce;
+  --line: #e4ddd7;
+  --pencil: #8a817b;
+  --ink: #1a1a1a;
+  --ink-soft: #4a4440;
+  /* cards, sheets, the paper of a tag */
+  --surface: #ffffff;
+  /* always-dark grounds (footer) */
+  --night: #1a1a1a;
+  /* raking daylight over the plaster */
+  --glow: rgb(255 255 255 / 0.55);
+  --frieze-filter: none;
+
+  /* raking light from the top-left: every relief casts down-right */
+  --relief-sm: 1px 2px 2px rgb(60 40 30 / 0.12), 2px 4px 8px rgb(60 40 30 / 0.08);
+  --relief-md: 2px 4px 6px rgb(60 40 30 / 0.12), 6px 14px 28px rgb(60 40 30 / 0.12);
+  --relief-lg: 4px 8px 12px rgb(60 40 30 / 0.14), 14px 30px 60px rgb(60 40 30 / 0.16);
+
+  --ease-glide: cubic-bezier(0.16, 1, 0.3, 1);
+  --ease-settle: cubic-bezier(0.3, 1.18, 0.6, 1);
+
+  --font-display-stack: "Poiret One", "Manrope", sans-serif;
+  --font-sans-stack: "Manrope", system-ui, -apple-system, "Segoe UI", sans-serif;
+
+  /* floating capsule header: 12px from the top, 60px tall */
+  --bar-h: 60px;
+  --header-h: calc(var(--bar-h) + 50px);
+  --header-top: var(--header-h);
+  --gutter: clamp(16px, 4vw, 48px);
+  color-scheme: light;
+}
+
+/* Night: the same showroom after dark — warm charcoal plaster, the red stays the red */
+:root[data-theme="dark"] {
+  --red: #d63a3a;
+  --red-deep: #b02a2a;
+  --foam: #141210;
+  --plaster: #1c1916;
+  --plaster-deep: #3a342f;
+  --line: #2f2a26;
+  --pencil: #9c938b;
+  --ink: #f3eee9;
+  --ink-soft: #c4bab1;
+  --surface: #221e1b;
+  --night: #0c0b0a;
+  --glow: rgb(255 235 215 / 0.06);
+  --frieze-filter: none;
+  --relief-sm: 1px 2px 2px rgb(0 0 0 / 0.35), 2px 4px 8px rgb(0 0 0 / 0.25);
+  --relief-md: 2px 4px 6px rgb(0 0 0 / 0.35), 6px 14px 28px rgb(0 0 0 / 0.35);
+  --relief-lg: 4px 8px 12px rgb(0 0 0 / 0.4), 14px 30px 60px rgb(0 0 0 / 0.45);
+  color-scheme: dark;
+}
+
+@theme inline {
+  --color-red: var(--red);
+  --color-red-deep: var(--red-deep);
+  --color-red-ink: var(--red-ink);
+  --color-foam: var(--foam);
+  --color-plaster: var(--plaster);
+  --color-plaster-deep: var(--plaster-deep);
+  --color-line: var(--line);
+  --color-pencil: var(--pencil);
+  --color-ink: var(--ink);
+  --color-ink-soft: var(--ink-soft);
+  --color-surface: var(--surface);
+  --color-night: var(--night);
+  --font-display: var(--font-display-stack);
+  --font-sans: var(--font-sans-stack);
+  --shadow-relief-sm: var(--relief-sm);
+  --shadow-relief-md: var(--relief-md);
+  --shadow-relief-lg: var(--relief-lg);
+}
+
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: calc(var(--header-h) + 12px);
+  -webkit-text-size-adjust: 100%;
+  accent-color: var(--red);
+  scrollbar-color: var(--plaster-deep) var(--foam);
+}
+
+body {
+  background: var(--foam);
+  color: var(--ink);
+  font-family: var(--font-sans-stack);
+  font-size: 1rem;
+  line-height: 1.6;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
+
+::selection {
+  background: var(--red);
+  color: var(--white);
+}
+
+/* text fields draw their own red focus ring */
+:focus-visible:not(input, textarea, select) {
+  outline: 2px solid var(--red);
+  outline-offset: 3px;
+  border-radius: 4px;
+}
+
+a {
+  text-underline-offset: 0.2em;
+  text-decoration-thickness: 1px;
+}
+
+h1,
+h2,
+h3 {
+  text-wrap: balance;
+}
+
+p {
+  text-wrap: pretty;
+}
+
+.tabular {
+  font-variant-numeric: tabular-nums lining-nums;
+}
+
+/* Display: art-deco capitals. Poiret One is hairline, so it carries size, never small text. */
+.display {
+  font-family: var(--font-display-stack);
+  font-weight: 400;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  line-height: 1;
+}
+
+/* the map takes the site's warm palette until touched */
+.map-embed {
+  filter: grayscale(0.55) sepia(0.12) contrast(1.02);
+  transition: filter 0.5s var(--ease-glide);
+}
+.map-frame:hover .map-embed,
+.map-embed:focus {
+  filter: none;
+}
+
+/* Profile-section wallpaper: catalog cross-sections, barely there */
+.profile-wall {
+  background-color: var(--foam);
+  background-image: url("/patterns/profiles.svg");
+  background-size: 420px auto;
+  background-repeat: repeat;
+}
+
+.select-chevron {
+  background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='12' height='8'><path d='M1 1l5 5 5-5' fill='none' stroke='%231a1a1a' stroke-width='1.6'/></svg>");
+  background-size: 12px 8px;
+  background-position: right 16px center;
+  background-repeat: no-repeat;
+}
+
+/* product dialog: rises like a card lifted off the wall */
+.product-dialog[open] {
+  animation: dialog-in 0.35s var(--ease-glide);
+}
+.product-dialog[open]::backdrop {
+  animation: backdrop-in 0.35s var(--ease-glide);
+}
+@keyframes dialog-in {
+  from {
+    opacity: 0;
+    transform: translateY(24px) scale(0.98);
+  }
+}
+@keyframes backdrop-in {
+  from {
+    opacity: 0;
+  }
+}
+
+/* a tag's card unfolds from the tag */
+.tag-pop {
+  animation: tag-pop 0.32s var(--ease-glide);
+}
+@keyframes tag-pop {
+  from {
+    opacity: 0;
+    transform: translateY(-6px) scale(0.97);
+  }
+}
+
+.tag-pop-out {
+  animation: tag-pop-out 0.2s ease-in forwards;
+  pointer-events: none;
+}
+@keyframes tag-pop-out {
+  to {
+    opacity: 0;
+    transform: translateY(-6px) scale(0.97);
+  }
+}
+
+/* hanging tags drift on their strings */
+@keyframes tag-sway {
+  0%,
+  100% {
+    transform: rotate(-2.5deg);
+  }
+  50% {
+    transform: rotate(2.5deg);
+  }
+}
+.tag-sway {
+  animation: tag-sway 5.5s ease-in-out infinite;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .tag-sway {
+    animation: none;
+  }
+  html {
+    scroll-behavior: auto;
+  }
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+}
+
+/* ---------- night theme details ---------- */
+:root[data-theme="dark"] .profile-wall {
+  background-image: url("/patterns/profiles-dark.svg");
+}
+:root[data-theme="dark"] .select-chevron {
+  background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='12' height='8'><path d='M1 1l5 5 5-5' fill='none' stroke='%23f3eee9' stroke-width='1.6'/></svg>");
+}
+:root[data-theme="dark"] .map-embed {
+  filter: invert(0.9) hue-rotate(180deg) grayscale(0.35) contrast(0.95);
+}
+:root[data-theme="dark"] .map-frame:hover .map-embed {
+  filter: invert(0.9) hue-rotate(180deg) grayscale(0.1);
+}
+/* the theme switch crossfades one snapshot of the page (GPU), instead of
+   transitioning colours on every element, which made the page stutter */
+::view-transition-old(root),
+::view-transition-new(root) {
+  animation-duration: 0.28s;
+  animation-timing-function: ease-out;
+}
+
+/* ---------- Instagram band: the brand runs across like a shop banner ---------- */
+.ig-band {
+  margin-inline: -2%;
+}
+.ig-run {
+  animation: ig-run 38s linear infinite;
+}
+@keyframes ig-run {
+  to {
+    transform: translateX(-50%);
+  }
+}
+@media (prefers-reduced-motion: reduce) {
+  .ig-run {
+    animation: none;
+  }
+}
+
+/* ---------- toast ---------- */
+.toast-in {
+  animation: toast-in 0.35s var(--ease-glide);
+}
+@keyframes toast-in {
+  from {
+    opacity: 0;
+    transform: translateY(12px);
+  }
+}
+
+/* a light sweep across a button on hover */
+.btn-shine::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(105deg, transparent 35%, rgb(255 255 255 / 0.35) 50%, transparent 65%);
+  transform: translateX(-120%);
+  pointer-events: none;
+}
+.btn-shine:hover::after {
+  transform: translateX(120%);
+  transition: transform 0.8s var(--ease-glide);
+}
+
+/* phone icons ring when hovered or tapped */
+.group:hover .phone-ring,
+.group:active .phone-ring,
+.group:focus-visible .phone-ring,
+a:hover > .phone-ring,
+a:active > .phone-ring {
+  animation: phone-ring 0.9s ease-in-out;
+}
+@keyframes phone-ring {
+  0%,
+  100% {
+    transform: rotate(0);
+  }
+  10%,
+  30%,
+  50% {
+    transform: rotate(-16deg) scale(1.08);
+  }
+  20%,
+  40%,
+  60% {
+    transform: rotate(16deg) scale(1.08);
+  }
+  75% {
+    transform: rotate(0) scale(1.04);
+  }
+}
+@media (prefers-reduced-motion: reduce) {
+  .btn-shine::after,
+  .group:hover .phone-ring,
+  .group:active .phone-ring {
+    animation: none;
+    transition: none;
+  }
+}
+
+/* the offer band's dot fills up until the next offer */
+.promo-progress {
+  width: 100%;
+  transform-origin: left;
+  animation-name: promo-progress;
+  animation-timing-function: linear;
+  animation-fill-mode: both;
+}
+@keyframes promo-progress {
+  from {
+    transform: scaleX(0);
+  }
+}
+
+/* ---------- brands: logos framed in white foam moulding, two rows drifting apart ---------- */
+.mould {
+  position: relative;
+  padding: 15px 15px 8px;
+  border-radius: 5px;
+  background: linear-gradient(150deg, #ffffff 0%, #f1ece6 55%, #e3dcd3 100%);
+  box-shadow:
+    inset 0 0 0 1px #ffffff,
+    inset 0 0 0 3px #e2dad1,
+    inset 0 0 0 4px #c8bdb1,
+    inset 0 0 0 7px #fdfbf8,
+    inset 0 0 0 8px #d3c9be,
+    inset 0 0 0 11px #f1ebe4,
+    inset 0 0 0 12px #b3a79a,
+    inset 0 2px 6px 12px rgb(60 40 25 / 0.12),
+    0 12px 24px rgb(40 25 20 / 0.16),
+    0 2px 4px rgb(40 25 20 / 0.12);
+  transition:
+    transform 0.4s var(--ease-glide),
+    box-shadow 0.4s var(--ease-glide);
+}
+/* little rosettes on the four corners, like a carved frame */
+.mould::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  --r: radial-gradient(circle, #ffffff 0 3px, #d9d0c6 3.5px 4.5px, #b3a79a 5px 6px, transparent 6.5px);
+  background:
+    var(--r) 0 0 / 16px 16px no-repeat,
+    var(--r) 100% 0 / 16px 16px no-repeat,
+    var(--r) 0 100% / 16px 16px no-repeat,
+    var(--r) 100% 100% / 16px 16px no-repeat;
+}
+.mould:hover {
+  transform: translateY(-4px);
+  box-shadow:
+    inset 0 0 0 1px #ffffff,
+    inset 0 0 0 3px #e2dad1,
+    inset 0 0 0 4px #c8bdb1,
+    inset 0 0 0 7px #fdfbf8,
+    inset 0 0 0 8px #d3c9be,
+    inset 0 0 0 11px #f1ebe4,
+    inset 0 0 0 12px #b3a79a,
+    inset 0 2px 6px 12px rgb(60 40 25 / 0.12),
+    0 20px 34px rgb(40 25 20 / 0.22),
+    0 4px 8px rgb(40 25 20 / 0.14);
+}
+.brands-mask {
+  -webkit-mask: linear-gradient(90deg, transparent, #000 6%, #000 94%, transparent);
+  mask: linear-gradient(90deg, transparent, #000 6%, #000 94%, transparent);
+}
+/* ---------- FLOSSO frame: a thin moulding line with a red light running round it ---------- */
+@property --fframe-a {
+  syntax: "<angle>";
+  inherits: false;
+  initial-value: 0deg;
+}
+/* layered so utilities (sticky, absolute, transitions) still win on the framed element */
+@layer components {
+  .fframe {
+    position: relative;
+    --beam: var(--red);
+    --rim: rgb(26 26 26 / 0.12);
+    --fframe-w: 1.5px;
+  }
+}
+:root[data-theme="dark"] .fframe {
+  --rim: rgb(255 240 230 / 0.14);
+}
+/* on red grounds the light runs white */
+.fframe.fframe-on-red,
+:root[data-theme="dark"] .fframe.fframe-on-red {
+  --beam: #ffffff;
+  --rim: rgb(255 255 255 / 0.28);
+}
+.fframe::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  z-index: 2;
+  border-radius: inherit;
+  padding: var(--fframe-w);
+  background: linear-gradient(var(--rim), var(--rim));
+  -webkit-mask:
+    linear-gradient(#000 0 0) content-box,
+    linear-gradient(#000 0 0);
+  -webkit-mask-composite: xor;
+  mask:
+    linear-gradient(#000 0 0) content-box exclude,
+    linear-gradient(#000 0 0);
+  pointer-events: none;
+  transition: filter 0.4s var(--ease-glide), opacity 0.4s var(--ease-glide);
+}
+.fframe-spin::before,
+.fframe-hover:hover::before,
+.fframe-hover:focus-within::before {
+  background:
+    conic-gradient(
+      from var(--fframe-a),
+      transparent 0deg 230deg,
+      color-mix(in srgb, var(--beam) 35%, transparent) 290deg,
+      var(--beam) 340deg,
+      transparent 360deg
+    ),
+    linear-gradient(var(--rim), var(--rim));
+  animation: fframe-spin 7s linear infinite;
+  /* neighbouring frames start at different points so the lights don't march in step */
+  animation-delay: var(--fframe-delay, 0s);
+}
+.fframe:hover {
+  --fframe-w: 2px;
+}
+.fframe:hover::before {
+  filter: brightness(1.15) saturate(1.25);
+}
+.fframe-glow:hover {
+  box-shadow: 0 14px 34px -14px color-mix(in srgb, var(--beam) 45%, transparent);
+}
+@keyframes fframe-spin {
+  to {
+    --fframe-a: 360deg;
+  }
+}
+@media (prefers-reduced-motion: reduce) {
+  .fframe-spin::before,
+  .fframe-hover:hover::before {
+    animation: none;
+  }
+}
+
+/* ---------- floating buttons, chat ---------- */
+.float-in {
+  animation: float-in 0.45s var(--ease-glide) both;
+}
+@keyframes float-in {
+  from {
+    opacity: 0;
+    transform: translateY(14px) scale(0.92);
+  }
+}
+.live-dot {
+  position: relative;
+}
+.live-dot::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  border-radius: inherit;
+  background: inherit;
+  animation: live-ping 2s ease-out infinite;
+}
+@keyframes live-ping {
+  to {
+    transform: scale(2.6);
+    opacity: 0;
+  }
+}
+.typing-dots span {
+  animation: typing 1.2s ease-in-out infinite;
+}
+.typing-dots span:nth-child(2) {
+  animation-delay: 0.15s;
+}
+.typing-dots span:nth-child(3) {
+  animation-delay: 0.3s;
+}
+@keyframes typing {
+  0%,
+  60%,
+  100% {
+    transform: translateY(0);
+    opacity: 0.4;
+  }
+  30% {
+    transform: translateY(-4px);
+    opacity: 1;
+  }
+}
+
+/* walls behind the facade crossfade; they keep their real colours in the night theme too */
+.wall-layer {
+  transition: opacity 1s ease;
+}
+
+/* bands that run edge to edge stop at the pilasters on wide screens */
+.edge-band {
+  margin-inline: auto;
+  max-width: 1504px;
+}
+
+/* FAQ: answers unfold by height */
+.faq-body {
+  display: grid;
+  grid-template-rows: 0fr;
+  transition: grid-template-rows 0.35s var(--ease-glide);
+}
+.faq-open > .faq-body {
+  grid-template-rows: 1fr;
+}
+.faq-body > div {
+  overflow: hidden;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .live-dot::after,
+  .typing-dots span,
+  .float-in {
+    animation: none;
+  }
+}
+
+/* ---------- window frame: a block set in a white foam moulding, like a casing round a window ---------- */
+@layer components {
+  .win-frame {
+    position: relative;
+    padding: 10px;
+    border-radius: 6px;
+    background: linear-gradient(150deg, #ffffff 0%, #f1ece6 55%, #e3dcd3 100%);
+    --win-rings:
+      inset 0 0 0 1px #ffffff, inset 0 0 0 2px #e2dad1, inset 0 0 0 3px #c8bdb1, inset 0 0 0 5px #fdfbf8, inset 0 0 0 6px #d3c9be,
+      inset 0 0 0 8px #f1ebe4, inset 0 0 0 9px #b3a79a;
+    box-shadow:
+      var(--win-rings),
+      0 10px 22px rgb(40 25 20 / 0.14),
+      0 2px 4px rgb(40 25 20 / 0.1);
+    transition:
+      transform 0.45s var(--ease-glide),
+      box-shadow 0.45s var(--ease-glide);
+  }
+  .win-frame:hover,
+  .win-frame:focus-within {
+    transform: translateY(-5px);
+    box-shadow:
+      var(--win-rings),
+      0 22px 40px -10px rgb(198 40 40 / 0.3),
+      0 4px 10px rgb(40 25 20 / 0.12);
+  }
+}
+/* carved rosettes on the corners */
+.win-frame::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  z-index: 2;
+  pointer-events: none;
+  --r: radial-gradient(circle, #ffffff 0 2.5px, #d9d0c6 3px 3.6px, #b3a79a 4px 4.8px, transparent 5.2px);
+  background:
+    var(--r) 0 0 / 12px 12px no-repeat,
+    var(--r) 100% 0 / 12px 12px no-repeat,
+    var(--r) 0 100% / 12px 12px no-repeat,
+    var(--r) 100% 100% / 12px 12px no-repeat;
+}
+:root[data-theme="dark"] .win-frame {
+  background: linear-gradient(150deg, #3a342f 0%, #2c2723 55%, #221e1b 100%);
+  --win-rings:
+    inset 0 0 0 1px #4a433d, inset 0 0 0 2px #2a2521, inset 0 0 0 3px #57504a, inset 0 0 0 5px #342f2a, inset 0 0 0 6px #1d1a17,
+    inset 0 0 0 8px #3a342f, inset 0 0 0 9px #15120f;
+}
+:root[data-theme="dark"] .win-frame::before {
+  --r: radial-gradient(circle, #6a625b 0 2.5px, #3a342f 3px 3.6px, #1d1a17 4px 4.8px, transparent 5.2px);
+}
+@media (prefers-reduced-motion: reduce) {
+  .win-frame:hover,
+  .win-frame:focus-within {
+    transform: none;
+  }
+}
+/* phones: a slimmer moulding so two cards side by side keep room for their text */
+@media (max-width: 639px) {
+  .win-frame {
+    padding: 7px;
+  }
+}
+
+
+/* ---------- the bay: on a computer the whole site stands between two fluted pilasters ----------
+   --half-bay is half the bay width; inside fixed elements 50% is half the viewport, so
+   calc(50% - var(--half-bay)) is the bay's edge for the header, the pilasters and the floating buttons */
+:root {
+  --pil-w: 0px;
+  --pil-gap: 0px;
+  --half-bay: min(752px, 50% - var(--pil-w) - var(--pil-gap));
+}
+@media (min-width: 1024px) {
+  :root {
+    --pil-w: 34px;
+    --pil-gap: 8px;
+  }
+}
+@media (min-width: 1640px) {
+  :root {
+    --pil-w: 46px;
+    --pil-gap: 12px;
+  }
+}
+.bay {
+  position: relative;
+  width: min(1504px, 100% - 2 * (var(--pil-w) + var(--pil-gap)));
+  margin-inline: auto;
+  overflow-x: clip;
+  background: var(--foam);
+}
+.bay-fixed {
+  left: calc(50% - var(--half-bay));
+  right: calc(50% - var(--half-bay));
+}
+@media (min-width: 1024px) {
+  /* the wall the bay is set into */
+  body {
+    background: var(--plaster-deep);
+  }
+}
+
+/* hero on a short laptop screen (100% zoom, ~650-780px tall): the plaque tightens so the hero fits the screen */
+@media (min-width: 1024px) and (max-height: 800px) {
+  .hero-plaque {
+    padding: 20px 24px !important;
+  }
+  .hero-plaque h1 {
+    font-size: clamp(28px, 5.6svh, 44px) !important;
+  }
+  .hero-plaque > svg {
+    margin-top: 12px !important;
+  }
+  .hero-plaque > p,
+  .hero-plaque > div {
+    margin-top: 12px !important;
+  }
+  .hero-plaque > p:first-of-type {
+    font-size: 15px !important;
+    line-height: 1.55 !important;
+  }
+}

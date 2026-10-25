@@ -1,0 +1,203 @@
+/* Intro: a bare facade, foam decor flies in from depth and settles, then the logo assembles.
+   Pure CSS so it runs from first paint; Intro.tsx only handles session / unmount. */
+
+/* only a hard page load shows it */
+html:not(.intro-on) .intro {
+  display: none;
+}
+html.intro-on {
+  overflow: hidden;
+}
+/* hold every frame until the facade image is ready (boot script adds .intro-go) */
+html:not(.intro-go) .intro,
+html:not(.intro-go) .intro * {
+  animation-play-state: paused !important;
+}
+
+.intro {
+  position: fixed;
+  inset: 0;
+  z-index: 60;
+  display: grid;
+  place-items: center;
+  background: var(--plaster);
+  overflow: hidden;
+  animation: intro-out 0.6s var(--ease-glide) 5s forwards;
+}
+@keyframes intro-out {
+  to {
+    opacity: 0;
+    visibility: hidden;
+  }
+}
+
+.intro-light {
+  position: absolute;
+  inset: 0;
+  background: radial-gradient(120% 90% at 10% 0%, var(--glow), transparent 60%);
+}
+
+/* camera: starts turned and pulled back, swings square to the wall */
+.intro-scene {
+  perspective: 1400px;
+  perspective-origin: 50% 40%;
+}
+.intro-stage {
+  position: relative;
+  height: min(72svh, calc(90vw / 1.217), 640px);
+  aspect-ratio: 1318 / 1083;
+  transform-style: preserve-3d;
+  transform: rotateY(-16deg) rotateX(7deg) scale(0.9);
+  animation: intro-camera 2.3s var(--ease-glide) 0.05s forwards;
+}
+@keyframes intro-camera {
+  to {
+    transform: none;
+  }
+}
+
+.intro-layer {
+  position: absolute;
+  inset: 0;
+  background: url("/images/compositions/composition-1-cut.webp") center / 100% 100% no-repeat;
+  filter: drop-shadow(5px 10px 8px rgb(70 50 40 / 0.28));
+  opacity: 0;
+  transform: translate3d(var(--dx, 0), var(--dy, 0), 520px) rotateX(var(--rx, 16deg)) rotateY(var(--ry, 0deg));
+  animation: intro-settle 0.85s var(--ease-settle) var(--at, 0.5s) forwards;
+}
+@keyframes intro-settle {
+  0% {
+    opacity: 0;
+  }
+  35% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 1;
+    transform: none;
+  }
+}
+
+.intro-layer[data-part="window"] {
+  clip-path: inset(17.5% 33% 23% 33%);
+  transform: scale(0.96);
+  filter: none;
+  animation: intro-window 0.5s var(--ease-glide) 0.1s forwards;
+}
+@keyframes intro-window {
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+.intro-layer[data-part="column-l"] {
+  clip-path: inset(0 87% 0 0);
+  --dx: -140px;
+  --ry: 24deg;
+  --at: 0.45s;
+}
+.intro-layer[data-part="column-r"] {
+  clip-path: inset(0 0 0 87%);
+  --dx: 140px;
+  --ry: -24deg;
+  --at: 0.6s;
+}
+.intro-layer[data-part="sill"] {
+  clip-path: inset(76% 22% 13.5% 22%);
+  --dy: 120px;
+  --rx: -24deg;
+  --at: 0.85s;
+}
+.intro-layer[data-part="casing-l"] {
+  clip-path: inset(18.5% 66% 23% 24.5%);
+  --dx: -80px;
+  --ry: 18deg;
+  --at: 1s;
+}
+.intro-layer[data-part="casing-r"] {
+  clip-path: inset(18.5% 24.5% 23% 66%);
+  --dx: 80px;
+  --ry: -18deg;
+  --at: 1.1s;
+}
+.intro-layer[data-part="cornice"] {
+  clip-path: inset(7% 21% 79% 21%);
+  --dy: -130px;
+  --rx: 28deg;
+  --at: 1.3s;
+}
+
+/* the wall steps back so the logo can come forward */
+.intro-veil {
+  position: absolute;
+  inset: 0;
+  background: var(--plaster);
+  opacity: 0;
+  animation: intro-veil 0.5s var(--ease-glide) 2.05s forwards;
+}
+@keyframes intro-veil {
+  to {
+    opacity: 0.84;
+  }
+}
+
+.intro-brand {
+  position: absolute;
+  inset: 0;
+  display: grid;
+  place-content: center;
+  justify-items: center;
+  gap: clamp(14px, 2.4vw, 26px);
+  padding: 0 24px;
+  pointer-events: none;
+}
+.intro-logo {
+  width: min(78vw, 520px);
+  height: auto;
+  overflow: visible;
+}
+.intro-logo path {
+  opacity: 0;
+  transform-box: fill-box;
+  transform-origin: center;
+  transform: translate(var(--px, 0), var(--py, 0)) rotate(var(--pr, 0deg)) scale(0.6);
+  animation: intro-piece 0.85s var(--ease-settle) var(--pat, 2.2s) forwards;
+}
+@keyframes intro-piece {
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+/* the slogan's box is fixed before it shows: spacing never animates, so nothing shifts */
+.intro-slogan {
+  font-family: var(--font-display-stack);
+  text-transform: uppercase;
+  font-size: clamp(15px, 4.4vw, 30px);
+  line-height: 1.2;
+  height: 1.2em;
+  letter-spacing: 0.16em;
+  white-space: nowrap;
+  color: var(--ink);
+  text-align: center;
+  opacity: 0;
+  clip-path: inset(0 100% 0 0);
+  animation: intro-slogan 1.1s var(--ease-glide) 3.2s forwards;
+}
+@keyframes intro-slogan {
+  from {
+    opacity: 0;
+    clip-path: inset(0 100% 0 0);
+  }
+  to {
+    opacity: 1;
+    clip-path: inset(0 0 0 0);
+  }
+}
+
+
+@media (prefers-reduced-motion: reduce) {
+  .intro {
+    display: none;
+  }
+}

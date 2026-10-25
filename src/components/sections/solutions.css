@@ -1,0 +1,114 @@
+/* Ready-made sets: every switch re-assembles the facade the way the intro does,
+   only quicker. The stage remounts per set, so the animations restart on their own. */
+
+.sol-scene {
+  perspective: 1400px;
+  perspective-origin: 50% 40%;
+}
+.sol-stage {
+  transform-style: preserve-3d;
+  transform: rotateY(-14deg) rotateX(6deg) scale(0.92);
+  animation: sol-camera 1.4s var(--ease-glide) forwards;
+}
+@keyframes sol-camera {
+  to {
+    transform: none;
+  }
+}
+/* wait for the set's image before anything moves */
+.sol-stage:not([data-go]),
+.sol-stage:not([data-go]) * {
+  animation-play-state: paused !important;
+}
+
+.sol-layer {
+  position: absolute;
+  inset: 0;
+  background: var(--img) center / 100% 100% no-repeat;
+  filter: drop-shadow(5px 10px 8px rgb(70 50 40 / 0.28));
+  opacity: 0;
+  transform: translate3d(var(--dx, 0), var(--dy, 0), 420px) rotateX(var(--rx, 16deg)) rotateY(var(--ry, 0deg));
+  animation: sol-settle 0.7s var(--ease-settle) var(--at, 0.3s) forwards;
+}
+@keyframes sol-settle {
+  0% {
+    opacity: 0;
+  }
+  35% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 1;
+    transform: none;
+  }
+}
+
+.sol-layer[data-part="window"] {
+  clip-path: inset(17.5% 33% 23% 33%);
+  transform: scale(0.96);
+  filter: none;
+  animation: sol-window 0.4s var(--ease-glide) forwards;
+}
+@keyframes sol-window {
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+.sol-layer[data-part="column-l"] {
+  clip-path: inset(0 87% 0 0);
+  --dx: -120px;
+  --ry: 24deg;
+  --at: 0.2s;
+}
+.sol-layer[data-part="column-r"] {
+  clip-path: inset(0 0 0 87%);
+  --dx: 120px;
+  --ry: -24deg;
+  --at: 0.3s;
+}
+.sol-layer[data-part="sill"] {
+  clip-path: inset(76% 22% 13.5% 22%);
+  --dy: 100px;
+  --rx: -24deg;
+  --at: 0.45s;
+}
+.sol-layer[data-part="casing-l"] {
+  clip-path: inset(18.5% 66% 23% 24.5%);
+  --dx: -70px;
+  --ry: 18deg;
+  --at: 0.55s;
+}
+.sol-layer[data-part="casing-r"] {
+  clip-path: inset(18.5% 24.5% 23% 66%);
+  --dx: 70px;
+  --ry: -18deg;
+  --at: 0.62s;
+}
+.sol-layer[data-part="cornice"] {
+  clip-path: inset(7% 21% 79% 21%);
+  --dy: -110px;
+  --rx: 28deg;
+  --at: 0.75s;
+}
+
+/* pins land once the pieces have settled */
+.sol-pin {
+  opacity: 0;
+  animation: sol-pin 0.35s var(--ease-glide) calc(1.35s + var(--i, 0) * 0.04s) forwards;
+}
+@keyframes sol-pin {
+  to {
+    opacity: 1;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .sol-stage,
+  .sol-layer,
+  .sol-pin {
+    animation: none !important;
+    opacity: 1 !important;
+    transform: none !important;
+  }
+}

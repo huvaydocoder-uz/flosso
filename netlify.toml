@@ -1,0 +1,10 @@
+[build]
+  command = "npx next build --webpack"
+  publish = ".next"
+
+[build.environment]
+  NODE_VERSION = "22"
+
+# the Next.js runtime, pinned so builds on Netlify servers use it too (it makes the server function)
+[[plugins]]
+  package = "@netlify/plugin-nextjs"

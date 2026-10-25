@@ -1,0 +1,636 @@
+{
+  "meta": {
+    "title": "Polystyrene Facade Decor in Uzbekistan — Cornices, Window Casings, Columns | FLOSSO",
+    "description": "FLOSSO makes polystyrene (EPS) facade decor in its own workshop in Bukhara, Uzbekistan: cornices, window casings, sills, columns and thermal panels. Wholesale prices, delivery.",
+    "ogAlt": "FLOSSO — polystyrene facade decor: cornices, window casings, columns",
+    "keywords": [
+      "facade decor",
+      "polystyrene facade decor",
+      "EPS foam moulding",
+      "foam cornice",
+      "exterior cornice",
+      "facade moulding",
+      "window casing",
+      "window trim",
+      "exterior window sill",
+      "foam columns",
+      "pilasters",
+      "column capital",
+      "thermal panels",
+      "facade panels",
+      "architectural foam mouldings",
+      "facade decor Uzbekistan",
+      "facade decor Bukhara",
+      "facade decor Tashkent",
+      "wholesale cornices",
+      "FLOSSO"
+    ],
+    "itemList": "FLOSSO catalog: polystyrene facade decor"
+  },
+  "slogan": "Beauty worthy of every era",
+  "nav": {
+    "catalog": "Catalog",
+    "solutions": "Ready-made sets",
+    "calculator": "Calculator",
+    "about": "About us",
+    "contact": "Contact",
+    "cta": "Get in touch",
+    "menu": "Menu",
+    "close": "Close",
+    "language": "Language"
+  },
+  "intro": {
+    "skip": "Skip"
+  },
+  "hero": {
+    "lead": "Cornices, window casings, sills and columns, made in our own workshop. Homeowners and builders buy from us directly, at wholesale prices.",
+    "primary": "View catalog",
+    "secondary": "Get in touch",
+    "wallLabel": "Ready-made set 1: a window and two columns",
+    "ask": "Ask on Telegram",
+    "tagHintWide": "Click a tag on the right to open the product",
+    "tagHintNarrow": "Tap a tag above to open the product",
+    "delivery": "Delivery available"
+  },
+  "category": {
+    "FKR": "Cornice",
+    "FNL": "Window casing",
+    "FPD": "Window sill",
+    "FTK": "Fluted pilaster",
+    "FIK": "Column capital & base",
+    "FIN": "Casing ornament",
+    "FTP": "Thermal panel"
+  },
+  "categoryPlural": {
+    "FKR": "Cornices",
+    "FNL": "Window casings",
+    "FPD": "Window sills",
+    "FTK": "Fluted pilasters",
+    "FIK": "Column capitals & bases",
+    "FIN": "Casing ornaments",
+    "FTP": "Thermal panels"
+  },
+  "units": {
+    "metr": "metre",
+    "dona": "pc",
+    "perMetr": "per metre",
+    "perDona": "per piece",
+    "sum": "UZS",
+    "cm": "cm",
+    "m": "m"
+  },
+  "gallery": {
+    "title": "How it looks on a facade",
+    "lead": "The catalog's ready-made sets on walls of different colours. Tap a picture to see what's in the set and the prices.",
+    "badge": "Visualisation",
+    "item": "Set {n}",
+    "walls": {
+      "sand": "Sand render",
+      "brick": "Brick red",
+      "stone": "Grey stone",
+      "light": "White render"
+    },
+    "real": "Real project",
+    "realTitle": "A house with FLOSSO mouldings",
+    "realSource": "From our Instagram video"
+  },
+  "why": {
+    "title": "What foam mouldings give you",
+    "lead": "The look of stone and plaster mouldings — far lighter, quicker to fit and cheaper.",
+    "drawing": "Section of cornice FKR01-718",
+    "items": {
+      "beauty": {
+        "t": "A finished facade",
+        "d": "Cornices, casings and columns give a plain wall a classic, finished look."
+      },
+      "warm": {
+        "t": "Keeps the warmth in",
+        "d": "Foam holds heat well: fewer cold spots around windows, lower heating bills."
+      },
+      "light": {
+        "t": "Light, easy to fit",
+        "d": "The profile is very light. It is glued on with a special adhesive — no heavy machinery or extra equipment needed."
+      },
+      "durable": {
+        "t": "Lasts for years",
+        "d": "With a protective coat and facade paint it stands up to rain, sun and frost and keeps its shape."
+      },
+      "price": {
+        "t": "Lower cost",
+        "d": "Far cheaper than stone or plaster, and quicker to install — you save on labour too."
+      }
+    }
+  },
+  "choose": {
+    "title": "Find the right moulding, easily",
+    "lead": "Pick a category to open that part of the catalog. Every product has its own code.",
+    "models": "{count} models",
+    "from": "from {price} UZS",
+    "open": "View",
+    "codeTitle": "A code is the product's passport",
+    "codeLead": "You don't need to remember codes: choose by the photo and the code is added to your order for you. For builders, here is what every letter and number means — tap a part of the code.",
+    "parts": {
+      "brand": {
+        "label": "F — FLOSSO",
+        "text": "The first letter F stands for FLOSSO. Every one of our product codes starts with F."
+      },
+      "cat": {
+        "label": "KR — product type",
+        "text": "The next two letters are the product type. KR is a cornice. The other types are listed below."
+      },
+      "model": {
+        "label": "01 — model number",
+        "text": "01 is model one. Products of the same type differ in pattern and shape by this number: 01, 02, 03…"
+      },
+      "height": {
+        "label": "7 — depth",
+        "text": "The first digit after the dash is the depth: it stands 7 cm off the wall."
+      },
+      "width": {
+        "label": "18 — width",
+        "text": "The last two digits are the width: it shows 18 cm wide on the wall."
+      }
+    },
+    "summary": "So FKR01-718 is a FLOSSO cornice, model 1, 7 cm deep, 18 cm wide.",
+    "legendTitle": "What the letters mean",
+    "legend": {
+      "KR": "cornice",
+      "NL": "window casing",
+      "PD": "window sill",
+      "TK": "fluted column (shaft)",
+      "IK": "column ornament (top and bottom)",
+      "IN": "casing ornament (corner and top)",
+      "TP": "thermal panel"
+    },
+    "position": "A letter in brackets appears only on ornaments: (T) is the top, (P) the bottom. For example, FIK(T)07-818 is a column top."
+  },
+  "wholesale": {
+    "title": "Always quality, always wholesale prices",
+    "lead": "For builders, contractors and shops: a separate price for large volumes, straight from the workshop.",
+    "points": {
+      "volume": "Volume-based pricing",
+      "direct": "No middlemen, workshop prices",
+      "advice": "Help with sizes and quantities"
+    },
+    "call": "Call us",
+    "request": "Message on Telegram",
+    "prefill": "Wholesale price request"
+  },
+  "whyUs": {
+    "title": "Why FLOSSO",
+    "rows": {
+      "own": {
+        "v": "In-house",
+        "t": "Our own production",
+        "d": "We make every profile ourselves — quality and price stay in our hands."
+      },
+      "range": {
+        "v": "56",
+        "t": "models, 7 categories",
+        "d": "From cornices to thermal panels — everything one facade needs, in one place."
+      },
+      "solutions": {
+        "v": "4",
+        "t": "ready-made sets",
+        "d": "Matched sets for a window and columns — no time lost choosing."
+      },
+      "wholesale": {
+        "v": "Wholesale",
+        "t": "prices",
+        "d": "Builders and contractors get a separate price for large volumes, straight from the workshop."
+      },
+      "delivery": {
+        "v": "Fast",
+        "t": "delivery",
+        "d": "We deliver orders quickly — we confirm timing and cost by phone."
+      },
+      "advice": {
+        "v": "Free",
+        "t": "advice",
+        "d": "We help you pick the profile and work out how many metres you need."
+      }
+    }
+  },
+  "instagram": {
+    "title": "Follow us on social media",
+    "lead": "On YouTube, Instagram and Telegram we openly show new products, orders and finished facades.",
+    "cta": "Go to @flosso_uz",
+    "tile": "Open FLOSSO on Instagram",
+    "button": "Our Instagram"
+  },
+  "faq": {
+    "title": "Frequently asked questions",
+    "more": "Didn't find your answer?",
+    "items": [
+      {
+        "q": "How are the mouldings installed?",
+        "a": "The profile is glued to a flat, clean wall with a special facade adhesive and, if needed, fixed with anchors as well. Joints are filled with sealant, then the surface is painted with facade paint. You can fit it yourself or with a contractor — we're happy to advise."
+      },
+      {
+        "q": "How long do foam mouldings last?",
+        "a": "With a protective coat and good facade paint, the mouldings withstand rain, sun and frost and keep their shape for many years. Repainting from time to time is recommended."
+      },
+      {
+        "q": "Can they be painted?",
+        "a": "Yes. Use acrylic or silicone-based facade paints — any colour works. Solvent-based (nitro) paints dissolve foam, so don't use them."
+      },
+      {
+        "q": "Do you deliver?",
+        "a": "Yes, we deliver orders. Cost and timing depend on the address and volume — call us to confirm. You can also pick up from the workshop yourself: Namozgoh street, Bukhara."
+      },
+      {
+        "q": "Is there a minimum order?",
+        "a": "We accept small orders too. We'll tell you by phone from which volume the wholesale price applies."
+      },
+      {
+        "q": "How is the price calculated?",
+        "a": "Cornices, casings, sills, columns and thermal panels are sold per metre; ornaments are sold per piece. Enter the length you need and the calculator shows the sum right away. We confirm the exact price and discounts by phone."
+      },
+      {
+        "q": "Which size should I choose?",
+        "a": "Large windows and tall walls suit a wider profile (15–18 cm); small windows and narrow walls suit a slimmer one (10–12 cm). The easiest start is a ready-made set: its parts are already matched in size."
+      }
+    ],
+    "or": "or",
+    "callButton": "Call us"
+  },
+  "about": {
+    "title": "About us",
+    "p1": "FLOSSO aims to contribute lastingly to Uzbekistan's infrastructure by making modern, high-quality, energy-efficient building products. With products built on innovative technology, we make construction easier and buildings both beautiful and practical.",
+    "p2": "To us, every product stands for trust, durability and modernity. We give our customers not just a product but a long-term solution.",
+    "quote": "For every home and every building — beauty for a lifetime.",
+    "photos": {
+      "arch": "Arch with columns",
+      "feather": "A frame around a lit ornament",
+      "panel": "Cornice, pilasters and panels"
+    },
+    "since": "since 1 November",
+    "lead": "FLOSSO started work in Bukhara on 1 November 2018. Since then we have made foam facade decor in our own workshop.",
+    "stats": {
+      "year": {
+        "v": "2018",
+        "t": "working since 1 November"
+      },
+      "exp": {
+        "v": "{n}+",
+        "t": "years of experience"
+      },
+      "range": {
+        "v": "{n}",
+        "t": "models, 7 categories"
+      },
+      "made": {
+        "v": "Bukhara",
+        "t": "our own workshop and production"
+      }
+    },
+    "zoom": "Enlarge photo"
+  },
+  "contact": {
+    "title": "Get in touch now",
+    "lead": "Leave your name and phone and we'll call you back shortly. Or call us yourself.",
+    "call": "Call us",
+    "instagram": "Our Instagram",
+    "form": {
+      "name": "Your name",
+      "phone": "Phone number",
+      "comment": "Comment",
+      "optional": "optional",
+      "commentHint": "For example: cornice and casings for 3 windows",
+      "submit": "Send request",
+      "sending": "Sending…",
+      "attached": "Sent along with your request",
+      "remove": "Remove",
+      "privacy": "Your details are used only to contact you.",
+      "successTitle": "Request received",
+      "successText": "We'll be in touch shortly. If it's urgent, give us a call.",
+      "again": "Send another request",
+      "errors": {
+        "name": "Please enter your name",
+        "phone": "Please enter the full phone number",
+        "rate": "Too many attempts. Try again a little later or call us.",
+        "server": "Your request didn't go through. Check your connection and try again, or call us."
+      },
+      "topic": "Subject",
+      "topicPick": "Choose a subject"
+    },
+    "telegram": "Message us on Telegram",
+    "phones": "Phones",
+    "youtube": "Our YouTube channel",
+    "topics": {
+      "karniz": "Cornice",
+      "nalichnik": "Window casing",
+      "podokonnik": "Window sill",
+      "kolonna": "Column",
+      "termopanel": "Thermal panel",
+      "solution": "Ready-made set",
+      "price": "Price request",
+      "montaj": "Installation",
+      "wholesale": "Wholesale purchase",
+      "other": "Other"
+    }
+  },
+  "map": {
+    "title": "Address",
+    "address": "Namozgoh street, Bukhara",
+    "note": "You can visit the workshop to see the products or pick up your order yourself. Please call before you come.",
+    "open": "Open in Google Maps",
+    "yandex": "In Yandex Maps",
+    "route": "Get directions",
+    "heading": "Our address"
+  },
+  "footer": {
+    "about": "FLOSSO is an Uzbek brand making polystyrene facade decor in Bukhara since 2018. For every home and every building — beauty for a lifetime.",
+    "contact": "Contact",
+    "menu": "Sections",
+    "phone": "Phone",
+    "instagram": "Instagram",
+    "site": "Website",
+    "rights": "All rights reserved."
+  },
+  "solutions": {
+    "title": "Ready-made sets",
+    "lead": "Matched sets from the catalog for a window and two columns. Tap a point to see that part's code, size and price.",
+    "tab": "Set {n}",
+    "list": "What's in the set",
+    "ask": "Ask on Telegram",
+    "calc": "Calculate in the calculator",
+    "setNote": "Ready-made set {n}",
+    "variant": "{v} cm",
+    "perWindow": "One window + 2 columns",
+    "roles": {
+      "column": "Column",
+      "capital": "Column capital",
+      "base": "Column base",
+      "cornice": "Cornice",
+      "casing": "Window casing",
+      "casingTop": "Casing top",
+      "casingBottom": "Casing bottom",
+      "sill": "Window sill"
+    },
+    "form": "Request this set"
+  },
+  "catalog": {
+    "title": "Catalog",
+    "lead": "All {count} products. Pick a category or type a name.",
+    "all": "All",
+    "search": "Search by name or code",
+    "searchHint": "For example: cornice or FKR01",
+    "empty": "Nothing found for “{q}”.",
+    "reset": "Clear",
+    "more": "Show {count} more",
+    "found": "{count} products",
+    "details": "Details",
+    "priceNote": "Contact us about large volumes and discounts."
+  },
+  "product": {
+    "close": "Close",
+    "section": "Section size",
+    "height": "Thickness",
+    "width": "Width",
+    "variant": "Choose a size",
+    "use": "Where it's used",
+    "tip": "How to choose",
+    "priceHow": "How the price works",
+    "priceMetr": "Price per metre. Enter how many metres you need and the total appears instantly.",
+    "priceDona": "Price per piece. Enter how many you need.",
+    "order": "Ask on Telegram",
+    "call": "Call us",
+    "discount": "Discount",
+    "heightHint": "how far it projects",
+    "widthHint": "the part you see on the wall",
+    "form": "Send a request"
+  },
+  "calc": {
+    "title": "Calculator",
+    "lead": "Three steps: pick a product, enter the size — the price appears right away. You can send the result with your request.",
+    "simple": "Simple",
+    "window": "By window",
+    "product": "Product",
+    "length": "Length, m",
+    "qty": "Quantity, pcs",
+    "total": "Total",
+    "winWidth": "Window width, cm",
+    "winHeight": "Window height, cm",
+    "winCount": "Number of windows",
+    "set": "Set",
+    "custom": "I'll choose",
+    "cornice": "Cornice",
+    "casing": "Window casing",
+    "sill": "Window sill",
+    "casingTop": "Casing top",
+    "casingBottom": "Casing bottom",
+    "none": "Not needed",
+    "element": "Part",
+    "amount": "Quantity",
+    "sum": "Sum",
+    "formula": "How it's counted: cornice and sill = window width + 2 × casing width + 10 cm; casing = 2 × window height; casing ornaments are 2 tops and 2 bottoms per window; column = number of columns × height, with 1 top and 1 bottom per column. Metres are rounded up to 10 cm. Each line shows its sum in figures.",
+    "send": "Send on Telegram",
+    "pieces": "pcs",
+    "discountApplied": "Calculated with the −{p}% discount",
+    "orForm": "or send a request",
+    "column": "Column",
+    "capital": "Column top",
+    "base": "Column bottom",
+    "colCount": "Number of columns",
+    "colHeight": "Column height, cm",
+    "steps": {
+      "product": "Choose the product",
+      "set": "Choose a set",
+      "size": "Enter the size",
+      "result": "Result"
+    }
+  },
+  "categoryInfo": {
+    "FKR": {
+      "use": "Above windows and doors, under the roof and between floors — it finishes the facade at the top.",
+      "tip": "A cornice should be wider than the casing: window width + casings on both sides + 5 cm overhang each side."
+    },
+    "FNL": {
+      "use": "A frame around windows and doors.",
+      "tip": "Small windows suit a 10–12 cm width, large ones 15 cm. Each window needs 2 × its height (both sides)."
+    },
+    "FPD": {
+      "use": "Under the window — a drip edge and a finish.",
+      "tip": "Take the sill the same length as the cornice. A deeper profile projects further from the wall."
+    },
+    "FTK": {
+      "use": "The shaft of a column (pilaster) — beside windows, on corners and at entrances.",
+      "tip": "Choose the column width (20–40 cm) to suit the facade and take a matching capital and base."
+    },
+    "FIK": {
+      "use": "The top (T — capital) and bottom (P — base) of a column.",
+      "tip": "The option matches the column width: 20, 30 or 40 cm. Each column needs one top and one bottom."
+    },
+    "FIN": {
+      "use": "Ornaments for the top and bottom ends of a window casing.",
+      "tip": "The option matches the casing width: 10, 12 or 15 cm. Each casing needs one top and one bottom piece."
+    },
+    "FTP": {
+      "use": "A panel for cladding the wall and keeping heat in.",
+      "tip": "30 or 40 cm wide. We'll work out the metres from your wall area — give us a call."
+    }
+  },
+  "naming": {
+    "title": "{kind}, model {model}",
+    "small": "small size",
+    "medium": "medium size",
+    "large": "large size",
+    "code": "Code"
+  },
+  "categoryPos": {
+    "T": "Column capital",
+    "P": "Column base"
+  },
+  "header": {
+    "location": "Bukhara, Namozgoh street",
+    "trade": "Wholesale and retail",
+    "search": "Search",
+    "searchPlaceholder": "Product name or code…",
+    "searchEmpty": "Nothing found. Try different words.",
+    "searchHint": "For example: cornice, column, FKR01",
+    "categories": "Categories",
+    "allCatalog": "Whole catalog",
+    "request": "Send a request",
+    "telegram": "Telegram",
+    "instagram": "Instagram",
+    "call": "Call",
+    "bar": {
+      "call": "Call",
+      "telegram": "Telegram",
+      "catalog": "Catalog",
+      "request": "Request"
+    },
+    "callTitle": "Call us",
+    "themeDark": "Switch to dark mode",
+    "themeLight": "Switch to light mode",
+    "writeTg": "Message on Telegram"
+  },
+  "tg": {
+    "ask": "Ask on Telegram",
+    "hello": "Hello! I'm writing from the FLOSSO website.",
+    "product": "I'm interested in:",
+    "price": "Price",
+    "calc": "My calculation:",
+    "total": "Total",
+    "set": "I need this ready-made set:",
+    "wholesale": "I'd like to know the wholesale price.",
+    "question": "Could you tell me the exact price and delivery terms?",
+    "window": "{count} windows, {w}×{h} cm",
+    "copied": "Message ready — tap Send in Telegram (the text is copied too)"
+  },
+  "call": {
+    "button": "Call us",
+    "title": "Call us",
+    "lead": "Tap a number to call right away.",
+    "close": "Close"
+  },
+  "promo": {
+    "close": "Close",
+    "upTo": "off",
+    "label": "Special offer",
+    "view": "View",
+    "later": "Later",
+    "productText": "Discount on the catalog price: {code}"
+  },
+  "brands": {
+    "title": "Brands we have worked with",
+    "lead": "Companies that chose FLOSSO decor for their projects."
+  },
+  "walls": {
+    "label": "Wall background",
+    "prev": "Previous wall",
+    "next": "Next wall",
+    "sand": "Sand plaster",
+    "brick": "Brick",
+    "stone": "Grey stone",
+    "light": "White plaster"
+  },
+  "social": {
+    "youtube": "Our YouTube channel",
+    "instagram": "Our Instagram page",
+    "telegram": "Our Telegram channel"
+  },
+  "process": {
+    "title": "How we work",
+    "text": "Every profile is made in our own workshop in Bukhara: from raw material to packing, every stage is in our craftsmen’s hands.",
+    "prev": "Previous photo",
+    "next": "Next photo",
+    "go": "Go to photo {n}",
+    "open": "View photos",
+    "groups": {
+      "raw": {
+        "t": "Material and cutting",
+        "d": "Polystyrene blocks are measured and cut to the drawing on the machine."
+      },
+      "coat": {
+        "t": "Coating and drying",
+        "d": "Profiles get a protective coat and dry on special racks."
+      },
+      "column": {
+        "t": "Columns and large profiles",
+        "d": "Columns, capitals, large cornices and window sills."
+      },
+      "store": {
+        "t": "Finished goods store",
+        "d": "Cornices, casings and sills sorted by type."
+      },
+      "pack": {
+        "t": "Packing",
+        "d": "Every piece is wrapped in FLOSSO film, ready to ship."
+      },
+      "show": {
+        "t": "The finished look",
+        "d": "Our showroom shows how the decor looks on a wall."
+      }
+    }
+  },
+  "callback": {
+    "button": "Request a call back",
+    "title": "Leave your number — we will call you back",
+    "phone": "Your phone number",
+    "send": "Send",
+    "sending": "Sending…",
+    "done": "Thank you! We will call you soon.",
+    "error": "Not sent. Please try again or call us.",
+    "invalid": "Enter the full number",
+    "close": "Close",
+    "toTop": "Back to top"
+  },
+  "chat": {
+    "bubble": "Online chat",
+    "bubbleShort": "Online chat",
+    "title": "FLOSSO assistant",
+    "status": "Online · quick replies",
+    "greet": "Hello! I'm the FLOSSO assistant. Ask me about products, prices, delivery or installation.",
+    "placeholder": "Type your question…",
+    "send": "Send",
+    "typing": "typing…",
+    "close": "Close",
+    "restart": "Start over",
+    "quick": {
+      "price": "Prices",
+      "delivery": "Delivery",
+      "montaj": "Installation",
+      "other": "Something else"
+    },
+    "answers": {
+      "price": "Each product's price is listed in the catalog per metre or per piece. The calculator works out the total from your window size right away. Leave your name and number and a specialist will give you an exact quote and any discounts.",
+      "delivery": "Yes, we deliver. Cost and timing depend on the address and volume. You can also pick up from the workshop: Bukhara, Namozgoh street.",
+      "montaj": "The profile is glued to a flat wall with special facade adhesive and, if needed, fixed with dowels. Joints are sealed and the surface is painted with facade paint. You or a builder can install it — we'll advise.",
+      "other": "Write your question. Leave your name and number and a specialist will call you with a detailed answer."
+    },
+    "askContact": "Leave your name and phone number — a specialist will be in touch soon.",
+    "name": "Your name",
+    "phone": "Phone number",
+    "submit": "Send my number",
+    "done": "Thank you, {name}! A specialist will call you soon.",
+    "error": "Something went wrong. Please try again or call us.",
+    "offline": "I couldn't answer just now. Leave your name and number and we'll call you."
+  },
+  "lightbox": {
+    "close": "Close",
+    "prev": "Previous photo",
+    "next": "Next photo"
+  }
+}
