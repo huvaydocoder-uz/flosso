@@ -136,7 +136,7 @@ export async function generateMetadata({ params }: LayoutProps<"/[locale]">): Pr
     icons: { icon: "/logo/flosso-mark.svg" },
     // Google Search Console and Yandex Webmaster: the code from their "meta tag" verification
     verification: {
-      ...(process.env.GOOGLE_SITE_VERIFICATION ? { google: process.env.GOOGLE_SITE_VERIFICATION } : {}),
+      google: process.env.GOOGLE_SITE_VERIFICATION || "HB2SZP8bl-p4tIHM6P_mK-Uwbumi6kmlqGPDimzu1Bw",
       ...(process.env.YANDEX_VERIFICATION ? { yandex: process.env.YANDEX_VERIFICATION } : {}),
     },
     robots: { index: true, follow: true, googleBot: { index: true, follow: true, "max-image-preview": "large", "max-snippet": -1 } },
